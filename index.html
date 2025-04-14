@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PICE | Camisetas de Fútbol</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Orbitron', sans-serif;
+    }
+
+    body {
+      background-color: #fff;
+      color: #000;
+    }
+
+    header {
+      background-color: #e40046;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header img {
+      height: 50px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background-color: #f8f8f8;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+
+    .btn {
+      padding: 0.8rem 1.5rem;
+      background-color: #e40046;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      text-transform: uppercase;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .section {
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+
+    .section h2 {
+      margin-bottom: 2rem;
+      font-size: 2rem;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    footer {
+      background-color: #000;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 2rem;
+    }
+
+    footer a {
+      color: #e40046;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo_pice.png" alt="PICE Logo"/>
+    <nav>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#coleccion">Colección</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>CADA PRENDA. UNA PIEZA. UNA NARRATIVA.</h1>
+    <p>Conecta con la pasión del fútbol a través de nuestras camisetas exclusivas.</p>
+    <a class="btn" href="#coleccion">Ver Colección</a>
+  </section>
+
+  <section class="section" id="nosotros">
+    <h2>¿Quiénes Somos?</h2>
+    <p>PICE es más que moda: somos memoria, historia y cultura futbolera hecha camiseta.</p>
+  </section>
+
+  <section class="section" id="coleccion">
+    <h2>Nuestra Colección</h2>
+    <div class="gallery">
+      <img src="camiseta1.jpg" alt="Camiseta 1"/>
+      <img src="camiseta2.jpg" alt="Camiseta 2"/>
+      <img src="camiseta3.jpg" alt="Camiseta 3"/>
+    </div>
+  </section>
+
+  <section class="section" id="contacto">
+    <h2>Contacto</h2>
+    <p>Síguenos en Instagram: <a href="https://instagram.com/piezanarrativa_pice" target="_blank">@piezanarrativa_pice</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 PICE. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
